@@ -1,7 +1,5 @@
 --If you want more granular logging (e.g., "This run is for parent X, skipping Y triggers")
 
-
-
 CREATE OR REPLACE FUNCTION clone_triggers_to_children(parent_table regclass)
 RETURNS BOOLEAN
 LANGUAGE plpgsql
