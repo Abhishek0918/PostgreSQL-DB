@@ -223,3 +223,7 @@ BEGIN
     RETURN;
 END;
 $$;
+
+
+-- Replace with your actual parent table
+SELECT * FROM clone_all_properties_to_children('requests_problem'::regclass);
