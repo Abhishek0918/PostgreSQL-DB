@@ -34,9 +34,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-
-
-
 SELECT public.fn_ac_change_request_owner(
     'requests_problem'::text,
     789456::bigint,         -- Replace 12345 with the actual ticket_id
